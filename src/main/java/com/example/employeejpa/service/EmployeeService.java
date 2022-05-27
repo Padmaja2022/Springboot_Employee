@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class EmployeeService {
 
-        @Autowired
+        @Autowired  // Dependency injection in spring.
             EmployeeRepository empRepository;   
           
         
